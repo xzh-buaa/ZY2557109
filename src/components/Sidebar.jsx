@@ -10,7 +10,7 @@ export default function Sidebar({ activeSection, setActiveSection }) {
             <div className="absolute inset-0 rounded-full border-2 border-white/30"></div>
           </div>
           <h1 className="text-xl font-semibold text-gray-900 mb-1 tracking-tight">Xiao Zhihao</h1>
-          <p className="text-sm text-gray-500 font-medium">Student | LLM Algorithm</p>
+          <p className="text-sm text-gray-500 font-medium">ZY2557109 | LLM Algorithm</p>
         </div>
       </div>
       <nav className="p-4 py-6">
@@ -31,6 +31,14 @@ export default function Sidebar({ activeSection, setActiveSection }) {
         <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">Contact</p>
         <div className="space-y-3">
           <div className="flex items-center gap-3 text-sm group cursor-pointer">
+            <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-green-500 group-hover:to-emerald-500 transition-all duration-300">
+              <svg className="w-4 h-4 text-gray-500 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </div>
+            <span className="text-gray-600 group-hover:text-gray-900 transition-colors">15205186201</span>
+          </div>
+          <div className="flex items-center gap-3 text-sm group cursor-pointer">
             <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-purple-500 group-hover:to-pink-500 transition-all duration-300">
               <svg className="w-4 h-4 text-gray-500 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -47,14 +55,6 @@ export default function Sidebar({ activeSection, setActiveSection }) {
             <a href="https://github.com/xzh-buaa" target="_blank" rel="noopener noreferrer" className="text-gray-600 group-hover:text-gray-900 transition-colors">
               github.com/xzh-buaa
             </a>
-          </div>
-          <div className="flex items-center gap-3 text-sm group cursor-pointer">
-            <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-green-500 group-hover:to-emerald-500 transition-all duration-300">
-              <svg className="w-4 h-4 text-gray-500 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-            </div>
-            <span className="text-gray-600 group-hover:text-gray-900 transition-colors">15205186201</span>
           </div>
         </div>
       </div>

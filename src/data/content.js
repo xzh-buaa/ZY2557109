@@ -1,5 +1,5 @@
 export const sections = [
-  { id: 'courses', title: 'Coursework' },
+  { id: 'courses', title: 'Course Work' },
   { id: 'education', title: 'Education' },
   { id: 'papers', title: 'Papers' },
   { id: 'internships', title: 'Internships' },
@@ -52,7 +52,7 @@ export const educationData = [
 export const paperData = [
   {
     title: 'DREAM: LLM-based Dynamic Role-playing via Event-Aware Memory Graph',
-    year: '2026',
+    year: 'SigKDD 2026 Research Track Under Review',
     description: 'Role-playing agents (RPAs) have emerged as a key application of large language models, enabling immersive and high-fidelity character simulation. Accurate role-playing of established characters requires not only stylistic imitation but also temporally consistent and causally grounded behavioral reasoning. However, existing RPAs primarily rely on static character descriptions and unstructured memory, limiting their ability to maintain long-term narrative and personality coherence. We introduce DREAM, a structured memory framework for role-playing agents inspired by the Activating Event–Belief–Consequence (ABC) cognitive model. DREAM transforms unstructured literary text into an Event-aware Memory Graph (EMG) that organizes character experiences into temporally ordered and causally linked event graph. This representation enables the construction of dynamic, dual-granularity character profiles that capture both stable personality traits and event-driven behavioral evolution. We further propose the Temporal Causal Memory (TCM) benchmark to evaluate temporal consistency and long-range causal narrative coherence. DREAM achieves state-of-the-art performance across CoSER, LIFECHOICE, and TCM, outperforming multiple strong baselines. Our approach demonstrates the effectiveness of structured memory in enhancing the interpretability and fidelity of role-playing agents.',
     link: '#',
     images: ['1.png', '2.png']

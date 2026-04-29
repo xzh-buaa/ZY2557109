@@ -37,7 +37,7 @@ body {
 }
 
 .section-title {
-  @apply text-2xl font-semibold text-gray-900 mb-6 pb-4;
+  @apply text-2xl font-semibold mb-6 pb-4;
   background: linear-gradient(90deg, #1d1d1f 0%, #6e6e73 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -56,7 +56,7 @@ body {
 }
 
 .item-title {
-  @apply text-lg font-semibold text-gray-900 mb-2;
+  @apply text-lg font-semibold text-gray-800 mb-2;
 }
 
 .item-meta {
@@ -65,12 +65,6 @@ body {
 
 .item-description {
   @apply text-gray-600 text-sm leading-relaxed;
-}
-
-.item-tag {
-  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
 }
 
 .animate-fade-in {
@@ -88,9 +82,4 @@ body {
   }
 }
 
-.gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
+/* Custom styles for highlight.js - keep theme styles */

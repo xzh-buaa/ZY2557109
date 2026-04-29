@@ -7,14 +7,8 @@ export default function Papers() {
       <div className="space-y-6">
         {paperData.map((paper, index) => (
           <div key={index} className="item-card">
-            <div className="flex items-start justify-between mb-4">
-              <h3 className="item-title pr-4">{paper.title}</h3>
-              <a href={paper.link} className="text-blue-500 hover:text-blue-600 text-sm flex items-center whitespace-nowrap transition-colors">
-                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-                View
-              </a>
+            <div className="mb-4">
+              <h3 className="item-title">{paper.title}</h3>
             </div>
             <div className="item-meta mb-4">
               <span className="text-gray-400">{paper.year}</span>

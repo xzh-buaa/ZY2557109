@@ -7,9 +7,9 @@ export default function Education() {
       <div className="space-y-6">
         {educationData.map((edu, index) => (
           <div key={index} className="item-card">
-            <h3 className="item-title">{edu.degree}</h3>
+            <h3 className="item-title">{edu.institution}</h3>
             <div className="item-meta">
-              <span className="text-gray-700 font-medium">{edu.institution}</span>
+              <span className="text-gray-700 font-medium">{edu.degree}</span>
               <span className="text-gray-300 mx-2">|</span>
               <span className="text-gray-500">{edu.location}</span>
             </div>
