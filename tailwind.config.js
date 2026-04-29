@@ -7,9 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#3B82F6',
-        secondary: '#6366F1',
-      }
+        primary: '#0071e3',
+        secondary: '#147ce5',
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'apple-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      },
     },
   },
   plugins: [],

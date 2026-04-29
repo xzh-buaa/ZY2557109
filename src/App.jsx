@@ -3,7 +3,6 @@ import Sidebar from './components/Sidebar'
 import Coursework from './components/Coursework'
 import Education from './components/Education'
 import Papers from './components/Papers'
-import Repositories from './components/Repositories'
 import Internships from './components/Internships'
 import Experience from './components/Experience'
 
@@ -11,7 +10,6 @@ const sectionComponents = {
   courses: Coursework,
   education: Education,
   papers: Papers,
-  repositories: Repositories,
   internships: Internships,
   experience: Experience,
 }
@@ -62,26 +60,20 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       <Sidebar activeSection={activeSection} setActiveSection={handleSidebarClick} />
-      <main className="ml-64 min-h-screen p-8">
-        <div className="max-w-5xl mx-auto">
-          <header className="mb-12">
-            <h1 className="text-4xl font-bold text-gray-800 mb-2">John Doe</h1>
-            <p className="text-gray-600 text-lg">Software Engineer | Computer Science Enthusiast</p>
-            <p className="text-gray-500 mt-2">Welcome to my personal blog. Here you'll find information about my academic projects, work experience, and technical interests.</p>
-          </header>
-
-          <div className="space-y-8">
+      <main className="ml-72 min-h-screen p-12">
+        <div className="max-w-4xl mx-auto">
+          <div className="space-y-10">
             {Object.entries(sectionComponents).map(([id, Component]) => (
-              <div key={id} id={id}>
+              <div key={id} id={id} className="animate-fade-in">
                 <Component />
               </div>
             ))}
           </div>
 
-          <footer className="mt-16 text-center text-gray-500 text-sm">
-            <p>&copy; 2024 John Doe. All rights reserved.</p>
+          <footer className="mt-20 pt-8 text-center">
+            <p className="text-gray-400 text-sm">&copy; 2026 Xiao Zhihao. All rights reserved.</p>
           </footer>
         </div>
       </main>
